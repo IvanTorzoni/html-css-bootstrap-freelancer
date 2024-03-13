@@ -21,8 +21,6 @@ ul{
     display: flex;
     width: 100%;
     margin: 0 auto;
-    /* debug */
-    background-color: yellow;
 }
 
 /* colors and debugs*/
@@ -50,4 +48,8 @@ ul{
 
 .sm_about{
     background-color: rgba(58, 84, 109, 1);
+}
+
+.sm_footer{
+    background-color: rgba(44, 62, 80, 1);
 }
