@@ -4,11 +4,20 @@
     .sm_container_big{
         width: 90%;
     }
+
+    .sm_container_small{
+        width: 80%;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .sm_container_big{
         width: 80%;
         max-width: 1800px;
+    }
+
+    .sm_container_small{
+        width: 70%;
+        max-width: 1600px;
     }
 }

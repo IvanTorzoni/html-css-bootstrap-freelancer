@@ -23,6 +23,12 @@ ul{
     margin: 0 auto;
 }
 
+.sm_container_small{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
 /* colors and debugs*/
 .sm_header{
     background-color: rgba(44, 62, 80, 1);
