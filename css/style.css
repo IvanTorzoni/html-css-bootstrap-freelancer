@@ -47,3 +47,7 @@ ul{
 .sm_start h5{
     font-size: 1rem;
 }
+
+.sm_about{
+    background-color: rgba(58, 84, 109, 1);
+}
