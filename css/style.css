@@ -35,7 +35,7 @@ ul{
     background-color: blue;
 }
 
-.sm_start{
+.sm_start, .sm_about{
     background-color: rgba(26, 188, 156, 1);
 }
 
