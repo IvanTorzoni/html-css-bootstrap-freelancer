@@ -1,0 +1,26 @@
+
+/* utilities */
+ul{
+    list-style-type: none;
+}
+
+/* Layout */
+.sm_container_big{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    /* debug */
+    background-color: yellow;
+}
+
+/* colors */
+.sm_header{
+    background-color: rgba(44, 62, 80, 1);
+}
+
+.sm_bg_blue{
+    /* debug */
+    background-color: blue;
+}
+
+

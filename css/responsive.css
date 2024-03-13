@@ -1,0 +1,13 @@
+/* Media query for container big*/
+
+@media screen and (min-width: 768px) {
+    .sm_container_big{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sm_container_big{
+        width: 80%;
+    }
+}
