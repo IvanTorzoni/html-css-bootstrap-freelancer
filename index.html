@@ -26,18 +26,46 @@
         <!-- container big for media queries -->
         <div class="ms_container_big">
             <!-- header container -->
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-10 col-md-6 col-lg-6 ms_bg_blue">
-                        <h2>Title</h2>
+            <div class="container">
+                <!-- nav bar -->
+                <nav class="navbar navbar-expand-md bg-trasparent" data-bs-theme="dark">
+                    <!-- navbar container -->
+                    <div class="container-fluid">
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                        <!-- /Logo -->
+
+                        <!-- Hamburger button -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- /Hamburger button -->
+
+                        <!-- Collapse action on click of hamburger menu -->
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <!-- list of links -->
+                            <ul class="navbar-nav ms-auto mb-lg-0 fs-5">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                                </li>
+                            </ul>
+                            <!-- list of links -->
+                        </div>
+                        <!-- Collapse action on click of hamburger menu -->
                     </div>
-                    <div class="d-none col-md-6 col-lg-6 d-md-block ms_bg_blue">
-                        <span>links</span>
-                    </div>
-                    <div class="col-2 d-md-none ms_bg_blue">
-                        <span>btn</span>
-                    </div>
-                </div>
+                    <!-- /navbar container -->
+                </nav>
+                <!-- nav bar -->
             </div>
             <!-- header container -->
         </div>
@@ -91,8 +119,8 @@
             </div>
             <!-- container big for media queries -->
         </section>
-        <!-- section portfolio -->   
-        
+        <!-- section portfolio -->
+
         <!-- section about -->
         <section class="ms_about">
             <!-- container small for media queries -->
@@ -102,10 +130,14 @@
                 <div class="container">
                     <div class="row g-3">
                         <div class="col-12 col-md-6 col-lg-6">
-                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and Javascript as well as optional LESS stylesheets for easy customization 
+                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+                            complete source files including HTML, CSS and Javascript as well as optional LESS
+                            stylesheets for easy customization
                         </div>
                         <div class="col-12 col-md-6 col-lg-6">
-                            Whatever you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your project, this template is perfect starting point
+                            Whatever you're a student looking to showcase your work, a professional looking to attract
+                            clients, or a graphic artist looking to share your project, this template is perfect
+                            starting point
                         </div>
                     </div>
                 </div>
@@ -121,7 +153,9 @@
             <div class="ms_container_small flex-col align-items-center">
                 <h2>CONTACT ME</h2>
                 <i class="bi bi-star-fill"></i>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic at maxime eos, officia animi nulla cupiditate modi deserunt possimus minus explicabo, consequatur quibusdam! Hic animi illo enim, minus quasi obcaecati.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Hic at maxime eos, officia animi nulla cupiditate modi deserunt possimus minus
+                    explicabo, consequatur quibusdam! Hic animi illo enim, minus quasi obcaecati.</p>
                 <button>SEND</button>
             </div>
             <!-- /container small for media queries -->
@@ -135,19 +169,25 @@
                 <div class="container">
                     <div class="row g-3">
                         <div class="col-12 col-md-4 col-lg-4">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, omnis nihil at quia commodi error provident quasi. Sit eum iure doloribus beatae? Alias quas repudiandae perspiciatis accusamus inventore nemo perferendis.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, omnis nihil at quia
+                            commodi error provident quasi. Sit eum iure doloribus beatae? Alias quas repudiandae
+                            perspiciatis accusamus inventore nemo perferendis.
                         </div>
                         <div class="col-12 col-md-4 col-lg-4">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, omnis nihil at quia commodi error provident quasi. Sit eum iure doloribus beatae? Alias quas repudiandae perspiciatis accusamus inventore nemo perferendis.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, omnis nihil at quia
+                            commodi error provident quasi. Sit eum iure doloribus beatae? Alias quas repudiandae
+                            perspiciatis accusamus inventore nemo perferendis.
                         </div>
                         <div class="col-12 col-md-4 col-lg-4">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, omnis nihil at quia commodi error provident quasi. Sit eum iure doloribus beatae? Alias quas repudiandae perspiciatis accusamus inventore nemo perferendis.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, omnis nihil at quia
+                            commodi error provident quasi. Sit eum iure doloribus beatae? Alias quas repudiandae
+                            perspiciatis accusamus inventore nemo perferendis.
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- /section location -->                
+        <!-- /section location -->
     </main>
     <!-- /main -->
 
@@ -158,6 +198,11 @@
         </div>
     </footer>
     <!-- /footer -->
+
+    <!-- JS script for bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
