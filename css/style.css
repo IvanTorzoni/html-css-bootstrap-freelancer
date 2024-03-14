@@ -34,18 +34,13 @@ ul{
     background-color: rgba(44, 62, 80, 1);
 }
 
-.ms_bg_blue{
-    /* debug */
-    background-color: blue;
-}
-
 .ms_start, .ms_about{
     background-color: rgba(26, 188, 156, 1);
 }
 
 .ms_start img{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 150px;
 }
 
 .ms_start h5{
