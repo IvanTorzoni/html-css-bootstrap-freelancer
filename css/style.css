@@ -17,45 +17,45 @@ ul{
 }
 
 /* Layout */
-.sm_container_big{
+.ms_container_big{
     display: flex;
     width: 100%;
     margin: 0 auto;
 }
 
-.sm_container_small{
+.ms_container_small{
     display: flex;
     width: 100%;
     margin: 0 auto;
 }
 
 /* colors and debugs*/
-.sm_header{
+.ms_header{
     background-color: rgba(44, 62, 80, 1);
 }
 
-.sm_bg_blue{
+.ms_bg_blue{
     /* debug */
     background-color: blue;
 }
 
-.sm_start, .sm_about{
+.ms_start, .ms_about{
     background-color: rgba(26, 188, 156, 1);
 }
 
-.sm_start img{
+.ms_start img{
     height: 250px;
     width: 250px;
 }
 
-.sm_start h5{
+.ms_start h5{
     font-size: 1rem;
 }
 
-.sm_about{
+.ms_about{
     background-color: rgba(58, 84, 109, 1);
 }
 
-.sm_footer{
+.ms_footer{
     background-color: rgba(44, 62, 80, 1);
 }
